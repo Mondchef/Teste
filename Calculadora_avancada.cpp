@@ -4,13 +4,6 @@
 #include<stdlib.h>
 #include <string.h>
 
-
-float soma(float s1, float s2){
-	float resultado;
-	resultado = s1 + s2;
-	return resultado;
-}
-main(){
 main(){
 	setlocale(LC_ALL,"portuguese");
 	
@@ -35,9 +28,10 @@ main(){
 		printf("\n\nCALCULADORA\nComandos:\nSoma = '+'\nSubtração = '-'\nMultiplicação = '*' \nDivisão = '/'\nPorcentagem = '%%' \nExponencial = '^'\nLogaritmo = 'l'\nRaíz quadrada = 'v'");
 		printf("\n\nDigite o primeiro número, a operação e logo depois o segundo número\n\n");	
 		scanf("%f %c %f", &n1, &operador, &n2);
+		switch(operador){
 		
 		
-		switch(operador){}
+		}
 	
 			printf("\nSe deseja continuar na calculadora digite 0\nSe não qualquer número:\n");
     		fflush(stdin);
